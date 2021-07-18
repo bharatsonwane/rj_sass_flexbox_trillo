@@ -1,0 +1,32 @@
+@import "src/assets/sass/abstractsMain.scss";
+
+.localComponentLevelContainer {
+    max-width: 130rem !important;
+    margin: 8rem auto !important;
+
+    &--modifier {
+        margin-top: 5rem !important;
+    }
+}
+
+.hotel-view {
+    background-color: #fff;
+
+    flex: 1;
+}
+
+.detail {
+    font-size: 1.4rem;
+    display: flex;
+    padding: 4.5rem;
+    background-color: var(--color-grey-light-1);
+    border-bottom: var(--line);
+
+    @media only screen and (max-width: $bp-medium) {
+        padding: 3rem;
+    }
+
+    @media only screen and (max-width: $bp-small) {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,12 @@
+@import "src/assets/sass/abstractsMain.scss";
+
+////////////////////////////////////////
+// GALLERY
+.gallery {
+    display: flex;
+
+    &__photo {
+        width: 100%;
+        display: block;
+    }
+}
