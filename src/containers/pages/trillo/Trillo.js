@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import { allClass } from 'src/constants/customModuleClassMethod'
+import { allClass } from 'src/helper/customModuleClassMethod'
 import mdl from "./trillo.module.scss"
 
 import NavbarMenu from 'src/components/navbarMenu/NavbarMenu'
